@@ -1,0 +1,1 @@
+# frames of breaking waves will be placed here, in folders corresponding to each raw video input file name, after being extracted by the computer vision breaking detection algorithm (STEP 1).
