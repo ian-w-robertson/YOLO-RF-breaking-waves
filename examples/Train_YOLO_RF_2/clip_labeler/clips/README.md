@@ -1,0 +1,1 @@
+# wave clips corresponding to each wave will be copied here (.mp4 and .txt files), in folders corresponding to each raw video input file name, for human-labeling as spilling or plunging with the clip labeler GUI (STEP 5).

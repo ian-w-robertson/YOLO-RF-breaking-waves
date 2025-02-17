@@ -1,0 +1,1 @@
+# Frames of breaking waves will be placed here (.jpg and .txt files), in folders corresponding to each raw video input file name, after being extracted by the computer vision breaking detection algorithm (STEP 1). The full cropped video will also be saved here, as well as JSON files of the breaking frames and the wave numbers for each frame.
