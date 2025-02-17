@@ -1,0 +1,12 @@
+path: .\YOLO_RF\Train_YOLO_RF_2
+train: train
+
+val: val
+
+#Classes
+names:
+ 0: prebreaking
+ 1: curling
+ 2: splashing
+ 3: whitewash
+ 4: crumbling
