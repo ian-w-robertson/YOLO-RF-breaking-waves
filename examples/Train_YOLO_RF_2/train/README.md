@@ -1,0 +1,1 @@
+# YOLO training data (images with .txt file box labels) will be copied here in the beginning of STEP 3, then used to train the YOLO model
