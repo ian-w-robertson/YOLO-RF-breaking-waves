@@ -1,0 +1,2 @@
+D:\YOLO_RF\Train_YOLO_RF_2\clip_labeler\clips\all\003_007H025T36irr_camF_1_wave017.txt > D:\YOLO_RF\Train_YOLO_RF_2\labeled_wave_sequences\spilling\003_007H025T36irr_camF_1_wave017.txt
+D:\YOLO_RF\Train_YOLO_RF_2\clip_labeler\clips\all\003_007H025T36irr_camF_1_wave017.mp4 > D:\YOLO_RF\Train_YOLO_RF_2\labeled_wave_sequences\spilling\003_007H025T36irr_camF_1_wave017.mp4
