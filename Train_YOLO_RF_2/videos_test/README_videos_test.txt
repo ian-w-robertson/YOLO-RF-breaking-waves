@@ -1,1 +1,0 @@
-# YOLO annotated breaking wave images and text files will be placed here, in folders corresponding to each raw video input file name, after being extracted from raw videos by the trained YOLO CNN (STEP 4). This data can be used to check YOLO performance.
