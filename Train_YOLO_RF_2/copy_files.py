@@ -7,7 +7,7 @@ import os
 import shutil
 
 #inputs
-home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2" #project folder
+home_folder = r".\\Train_YOLO_RF_2" #project folder
 file_path = home_folder + '\\videos\\'
 output_path = home_folder + "\\clip_labeler\\clips\\"
 

@@ -9,7 +9,7 @@ from os.path import join
 from sklearn.model_selection import train_test_split
 
 
-home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2" #project folder
+home_folder = r".\\Train_YOLO_RF_2" #project folder
 file_path = home_folder + '\\cnn_frames\\' #path where extracted images are stored for labeling (output of extract_wave_frames.py)
 train_path = home_folder + '\\train' #path to place images for CNN training
 val_path = home_folder + '\\val' #path to place images for CNN validation

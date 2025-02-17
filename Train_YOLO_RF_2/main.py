@@ -44,9 +44,8 @@ from random_forest import random_forest_func
 
 # define inputs
 # note: only home_folder and raw_videos_folder needs to be adjusted
-home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2" #project folder
-#raw_videos_folder = r'E:\\2023-02\\ML videos\\camF\\training' #for videos on external drive (saves space on local drive)
-raw_videos_folder = '.\\YOLO_RF\\raw_videos'  #for videos in project folder
+home_folder = r".\\Train_YOLO_RF_2" #project folder
+raw_videos_folder = '.\\raw_videos'  #for videos in project folder
 
 # don't change unless altering path structure
 images_folder = home_folder + '\\cnn_frames\\'

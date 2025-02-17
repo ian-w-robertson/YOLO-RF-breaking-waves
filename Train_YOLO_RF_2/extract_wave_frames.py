@@ -16,8 +16,8 @@ output_type = 'frames'
 #output_type = 'clips'
 
 #other inputs
-home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2"
-input_path = r'.\\YOLO_RF\\raw_videos'
+home_folder = r".\\Train_YOLO_RF_2"
+input_path = r'.\\raw_videos'
 save_path = home_folder + '\\cnn_frames\\'
 file = '000_011H030T45irr_camF_2'
 

@@ -38,8 +38,8 @@ import operator
 #define output type. options are 'clips' or 'frames'. 'clips' exports video clips of individual wave events. 'frames' exports folders with all the frames from a single wave event
 output_type = 'clips' #use clips unless altering the architecture of the other programs
 file = '000_004H030T33reg_camF' #input raw video file
-home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2" # project folder
-raw_videos_folder = r'.\\YOLO_RF\\2023-02\\ML videos\\camF\\training' #folder with .mp4 files
+home_folder = r".\\Train_YOLO_RF_2" # project folder
+raw_videos_folder = r'.\\raw_videos' #folder with raw .mp4 files
 clips_folder = home_folder + '\\videos\\' # save output data here
 test_folder = home_folder + '\\videos_test\\' #save test materials here
 model_folder = home_folder + '\\runs\\detect\\train3\\weights\\best.pt' #.pt YOLO CNN file

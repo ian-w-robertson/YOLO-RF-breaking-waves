@@ -32,7 +32,7 @@ from pathlib import Path
 
 #define output type. options are 'clips' or 'frames'. 'clips' exports video clips of individual wave events. 'frames' exports folders with all the frames from a single wave event
 file = '000_002H030T33irr_camF_2_wave193' #input raw video file
-home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2" # project folder
+home_folder = r".\\YTrain_YOLO_RF_2" # project folder
 test_folder = home_folder + '\\manual_test_videos\\'
 model_folder = home_folder + '\\runs\\detect\\train3\\weights\\best.pt' #.pt YOLO CNN file
 
