@@ -1,5 +1,0 @@
-curling        0.403648
-crumbling      0.282945
-splashing      0.192434
-whitewash      0.085944
-prebreaking    0.035029
