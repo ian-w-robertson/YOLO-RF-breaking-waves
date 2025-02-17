@@ -1,0 +1,1 @@
+# YOLO validation data (images with .txt file box labels) will be copied here in the beginning of STEP 3, then used to validate the YOLO model
