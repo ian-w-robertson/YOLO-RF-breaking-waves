@@ -7,7 +7,7 @@
 import os
 
 #inputs
-home_folder = r".\\YOLO_RF\\Test_YOLO_RF_2" #project folder
+home_folder = r".\\Test_YOLO_RF_2" #project folder
 labels_sequence_folder = home_folder + '\\labeled_wave_sequences' #folder where individual sequences are stored
 output_folder = home_folder + '\\data' #folder to output master .txt file
 class_name = 'spilling'  # 'plunging' or 'spilling'

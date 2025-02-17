@@ -17,8 +17,8 @@ import os
 
 
 # function inputs
-home_folder = r".\\YOLO_RF\\Test_YOLO_RF_2"
-train_home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2"
+home_folder = r".\\Test_YOLO_RF_2"
+train_home_folder = r".\\Train_YOLO_RF_2"
 model_folder = train_home_folder + '\\data\\random_forest_0.joblib'
 data_folder = home_folder + '\\data'
 labels_sequence_folder = home_folder + '\\labeled_wave_sequences'  

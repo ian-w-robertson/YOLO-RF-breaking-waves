@@ -39,9 +39,9 @@ from random_forest import random_forest_func
 
 # define inputs
 # note: only home_folder and raw_videos_folder needs to be adjusted
-home_folder = r".\\YOLO_RF\\Test_YOLO_RF_2" #project folder
-train_home_folder = r".\\YOLO_RF\\Train_YOLO_RF_2" #project folder for training
-raw_videos_folder = r'.\\YOLO_RF\\raw_videos' #edit to path of raw_videos
+home_folder = r".\\Test_YOLO_RF_2" #project folder
+train_home_folder = r".\\Train_YOLO_RF_2" #project folder for training
+raw_videos_folder = r'.\\raw_videos' #edit to path of raw_videos
 model_folder = train_home_folder + '\\runs\\detect\\train3\\weights\\best.pt'  #update with path of appropriate trained model
 random_forest_model_folder = train_home_folder + '\\data\\random_forest_0.joblib' #choose which random forest model to use (0, 1, 2, 3, 4, 5)
 #raw_videos_folder = home_folder + '\\raw_videos'  #for videos in project folder
