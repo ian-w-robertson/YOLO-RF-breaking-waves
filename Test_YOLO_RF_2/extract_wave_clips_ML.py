@@ -312,7 +312,7 @@ def extract_waves_func(output_type, raw_videos_folder, clips_folder, test_folder
                 start_frame = min_frame_count_list[i]
                 end_frame = max_frame_count_list[i]
                 #create folder
-                if not os.path.exists(join(save_path, input_filename[:-4])):
+                if not os.path.exists(input_filename[:-4]):
                     os.makedirs(input_filename[:-4])
                 #save frames in a folder
                 if output_type == 'frames': 
