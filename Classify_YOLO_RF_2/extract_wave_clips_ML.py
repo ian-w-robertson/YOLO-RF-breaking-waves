@@ -40,9 +40,9 @@ output_type = 'clips' #use clips unless altering the architecture of the other p
 file = '002H30T33irr_camF_3'
 base_folder = os.path.abspath(os.path.join(os.getcwd(), ".."))
 #home_folder = r".\\Classify_YOLO_RF_2" #project folder
-train_home_folder = base_folder + r".\\Train_YOLO_RF_2" #project folder for training
-test_home_folder = base_folder + r".\\Test_YOLO_RF_2"
-raw_videos_folder = base_folder + r'.\\raw_videos' #for videos on external drive (saves space on local drive)
+train_home_folder = base_folder + r"\\Train_YOLO_RF_2" #project folder for training
+test_home_folder = base_folder + r"\\Test_YOLO_RF_2"
+raw_videos_folder = base_folder + r'\\raw_videos' #for videos on external drive (saves space on local drive)
 #model_folder = train_home_folder + '\\runs\\detect\\train3\\weights\\best.pt' #choose YOLO model here
 model_folder = r'.\\models\\YOLO_train3_best.pt' #choose YOLO model to use, use model in current folder if you have not trained your own model
 
