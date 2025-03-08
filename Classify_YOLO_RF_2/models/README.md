@@ -1,0 +1,1 @@
+# this folder contains the best YOLO model (trained on laboratory data), as well as 6 trials of random forest models
