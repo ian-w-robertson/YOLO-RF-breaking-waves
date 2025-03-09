@@ -16,9 +16,10 @@ output_type = 'frames'
 #output_type = 'clips'
 
 #other inputs
-home_folder = r".\\Train_YOLO_RF_2"
-input_path = r'.\\raw_videos'
-save_path = home_folder + '\\cnn_frames\\'
+base_folder = os.path.abspath(os.path.join(os.getcwd(), "..")) #one level up
+#home_folder = r".\\Train_YOLO_RF_2" #project folder
+input_path = base_folder + r'.\\raw_videos'  #for videos in project folder
+save_path = r'.\\cnn_frames\\'
 file = '000_011H030T45irr_camF_2'
 
 

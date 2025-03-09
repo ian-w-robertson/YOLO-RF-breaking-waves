@@ -19,8 +19,8 @@ from generate_stats import generate_stats_func
 import os
 
 # function inputs
-home_folder = r".\\Train_YOLO_RF_2"
-data_folder = home_folder + '\\data' 
+#home_folder = r".\\Train_YOLO_RF_2"
+data_folder = r'.\\data' 
 save_path = data_folder #where output data is saved
 test_size=0.2 #decimal percentage of data to reserve for testing (validation)
 n_estimators=100

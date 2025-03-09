@@ -4,8 +4,8 @@
 from os.path import join
 import numpy as np
 
-home_folder = r".\\Train_YOLO_RF_2"
-labels_sequence_folder = home_folder + '\\labeled_wave_sequences' # path where 'plunging.txt' and 'spilling.txt' are stored
+#home_folder = r".\\Train_YOLO_RF_2"
+labels_sequence_folder = r'.\\labeled_wave_sequences' # path where 'plunging.txt' and 'spilling.txt' are stored
 class_name = 'plunging' # 'plunging' or 'spilling'
 
 def generate_stats_func(labels_sequence_folder, class_name):

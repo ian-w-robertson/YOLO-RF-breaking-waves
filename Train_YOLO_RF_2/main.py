@@ -43,20 +43,22 @@ from random_forest import random_forest_func
 
 
 # define inputs
-# note: only home_folder and raw_videos_folder needs to be adjusted
-home_folder = r".\\Train_YOLO_RF_2" #project folder
-raw_videos_folder = '.\\raw_videos'  #for videos in project folder
+# make sure you navigate to Train_YOLO_RF_2
+# note: only raw_videos_folder needs to be adjusted
+base_folder = os.path.abspath(os.path.join(os.getcwd(), "..")) #one level up
+#home_folder = r".\\Train_YOLO_RF_2" #project folder
+raw_videos_folder = base_folder + r'.\\raw_videos'  #for videos in project folder
 
 # don't change unless altering path structure
-images_folder = home_folder + '\\cnn_frames\\'
-clips_folder = home_folder + '\\videos\\'
-test_folder = home_folder + '\\videos_test\\'
-model_folder = home_folder + '\\runs\\detect\\train3\\weights\\best.pt'  #pick folder of desired model after training the YOLO model
-labels_sequence_folder = home_folder + '\\labeled_wave_sequences'
-train_path = home_folder + '\\train'
-val_path = home_folder + '\\val'
-labeling_folder = home_folder + "\\clip_labeler\\clips\\"
-data_folder = home_folder + '\\data'
+images_folder = r'.\\cnn_frames\\'
+clips_folder = r'.\\videos\\'
+test_folder = r'.\\videos_test\\'
+model_folder = r'.\\runs\\detect\\train3\\weights\\best.pt'  #pick folder of desired model after training the YOLO model
+labels_sequence_folder = r'.\\labeled_wave_sequences'
+train_path = r'.\\train'
+val_path = r'.\\val'
+labeling_folder = r".\\clip_labeler\\clips\\"
+data_folder = r'.\\data'
 
 ####################################################################################################
 ## STEP 0: Check GPU configuration

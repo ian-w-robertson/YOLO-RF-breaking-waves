@@ -9,10 +9,10 @@ from os.path import join
 from sklearn.model_selection import train_test_split
 
 
-home_folder = r".\\Train_YOLO_RF_2" #project folder
-file_path = home_folder + '\\cnn_frames\\' #path where extracted images are stored for labeling (output of extract_wave_frames.py)
-train_path = home_folder + '\\train' #path to place images for CNN training
-val_path = home_folder + '\\val' #path to place images for CNN validation
+#home_folder = r".\\Train_YOLO_RF_2" #project folder
+file_path = r'.\\cnn_frames\\' #path where extracted images are stored for labeling (output of extract_wave_frames.py)
+train_path = r'.\\train' #path to place images for CNN training
+val_path = r'.\\val' #path to place images for CNN validation
 val_percent = 0.20 #percent of total dataset to set aside for validation (determined by wave event, not by image)
 
 def build_training_set_func(file_path, train_path, val_path, val_percent):

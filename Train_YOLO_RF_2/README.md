@@ -1,4 +1,4 @@
-# YOLO-RF Model for Breaking Wave Classification (Training)
+# YOLO-RF Model for Breaking Wave Classification
 
 ## Overview
 
@@ -10,6 +10,8 @@ This folder has a `main.py` file with detailed instructions on how to execute pr
 ## Training (Train_YOLO_RF_2)
 
 The first step in developing a machine learning model is to train your model. This consists of choosing a model, preprocessing data, labeling data, and feeding data into the model for training. In this case, we implement the [Ultralytics YOLO v8](https://docs.ultralytics.com/quickstart/) Convolutional Neural Network (CNN) object detection model to recognize wave features in single video frames, and an [sklearn](https://scikit-learn.org/stable/install.html) Random Forest model to understand the statistical occurence of these features over the course of the video. The goal of the training is to output accurate model files for each model that can be applied to previously unseen videos and classify breaking waves as 'plunging' or 'spilling.' To develop accurate models, we must thoughtfully label data by hand and feed this information to the model so it can learn how to label data autonomously. The following steps outline the process for training both models.
+
+First, navigate to the **Train_YOLO_RF_2** to start running training functions.
 
 ### Step 1: Extract desired frames for feature labeling using a computer vision tool
 

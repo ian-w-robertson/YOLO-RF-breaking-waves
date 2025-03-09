@@ -1,7 +1,9 @@
 #train the dataset
 from ultralytics import YOLO
+import os
 
-home_folder = r".\\Train_YOLO_RF_2" #project folder
+#home_folder = r".\\Train_YOLO_RF_2" #project folder
+home_folder = os.getcwd() #current directory
 
 def yolo_func(home_folder):
     # Load a Model (choose n, s, m, l, or x)
