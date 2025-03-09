@@ -4,8 +4,8 @@
 from os.path import join
 import numpy as np
 
-home_folder = r".\\Test_YOLO_RF_2"
-labels_sequence_folder = home_folder + '\\data' # path where 'plunging.txt' and 'spilling.txt' are stored
+#home_folder = r".\\Test_YOLO_RF_2"
+labels_sequence_folder = r'.\\data' # path where 'plunging.txt' and 'spilling.txt' are stored
 
 class_name = 'spilling' # 'plunging' or 'spilling'
 

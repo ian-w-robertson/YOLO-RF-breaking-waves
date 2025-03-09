@@ -7,10 +7,10 @@ import os
 import shutil
 
 #inputs
-home_folder = r".\\Test_YOLO_RF_2" #project folder
-test_home_folder = r".\\Test_YOLO_RF_2" #test project folder
-file_path = test_home_folder + '\\videos\\'
-output_path = home_folder + "\\clip_labeler\\clips\\"
+#home_folder = r".\\Test_YOLO_RF_2" #project folder
+#test_home_folder = r".\\Test_YOLO_RF_2" #test project folder
+file_path =  r'.\\videos\\'
+output_path =  r".\\clip_labeler\\clips\\"
 
 def copy_files_func(file_path, output_path):
 

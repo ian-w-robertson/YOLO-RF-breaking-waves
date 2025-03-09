@@ -38,12 +38,12 @@ import operator
 #define output type. options are 'clips' or 'frames'. 'clips' exports video clips of individual wave events. 'frames' exports folders with all the frames from a single wave event
 output_type = 'clips' #use clips unless altering the architecture of the other programs
 file = '000_004H030T40irr_camF_3' #input raw video file
-home_folder = r".\\Test_YOLO_RF_2" # project folder
-train_home_folder = r".\\Train_YOLO_RF_2" #project folder for training
-raw_videos_folder = r'.\\raw_videos' #folder with .mp4 files
-clips_folder = home_folder + '\\videos\\' # save output data here
-test_folder = home_folder + '\\videos_test\\' #save test materials here
-model_folder = train_home_folder + '\\runs\\detect\\train3\\weights\\best.pt' #.pt YOLO CNN file (make sure to choose correct one)
+base_folder = os.path.abspath(os.path.join(os.getcwd(), "..")) #one level up
+train_home_folder = base_folder + r"\\Train_YOLO_RF_2" #project folder for training
+raw_videos_folder = base_folder + r'\\raw_videos' #edit to path of raw_videos
+clips_folder = r'.\\videos\\' # save output data here
+test_folder = r'.\\videos_test\\' #save test materials here
+model_folder = train_home_folder + r'\\runs\\detect\\train3\\weights\\best.pt' #.pt YOLO CNN file (make sure to choose correct one)
 
 def extract_waves_func(output_type, raw_videos_folder, clips_folder, test_folder, model_folder, file): #output type is 'clips' or 'frames'. 
     #user inputs

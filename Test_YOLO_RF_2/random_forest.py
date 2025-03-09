@@ -17,11 +17,12 @@ import os
 
 
 # function inputs
-home_folder = r".\\Test_YOLO_RF_2"
-train_home_folder = r".\\Train_YOLO_RF_2"
+#home_folder = r".\\Test_YOLO_RF_2"
+base_folder = os.path.abspath(os.path.join(os.getcwd(), "..")) #one level up
+train_home_folder = base_folder + r"\\Train_YOLO_RF_2" #project folder for training
 model_folder = train_home_folder + '\\data\\random_forest_0.joblib'
-data_folder = home_folder + '\\data'
-labels_sequence_folder = home_folder + '\\labeled_wave_sequences'  
+data_folder = r'.\\data'
+labels_sequence_folder = r'.\\labeled_wave_sequences'  
 save_path = data_folder #where output data is saved
 
 def random_forest_func(data_folder, labels_sequence_folder, model_folder, save_path):

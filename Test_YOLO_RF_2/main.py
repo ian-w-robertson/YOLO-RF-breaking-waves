@@ -29,6 +29,7 @@ Use the yoloenv2 virtual environment to run commands on this script (unless othe
 #import packages
 import torch
 import sys
+import os
 
 #import custom functions
 from extract_wave_clips_ML import extract_waves_func
@@ -38,20 +39,21 @@ from random_forest import random_forest_func
 
 
 # define inputs
-# note: only home_folder and raw_videos_folder needs to be adjusted
-home_folder = r".\\Test_YOLO_RF_2" #project folder
-train_home_folder = r".\\Train_YOLO_RF_2" #project folder for training
-raw_videos_folder = r'.\\raw_videos' #edit to path of raw_videos
-model_folder = train_home_folder + '\\runs\\detect\\train3\\weights\\best.pt'  #update with path of appropriate trained model
-random_forest_model_folder = train_home_folder + '\\data\\random_forest_0.joblib' #choose which random forest model to use (0, 1, 2, 3, 4, 5)
+# note: navigate to Test_YOLO_RF_2 folder first
+#home_folder = r".\\Test_YOLO_RF_2" #project folder
+base_folder = os.path.abspath(os.path.join(os.getcwd(), "..")) #one level up
+train_home_folder = base_folder + r"\\Train_YOLO_RF_2" #project folder for training
+raw_videos_folder = base_folder + r'\\raw_videos' #edit to path of raw_videos
+model_folder = train_home_folder + r'\\runs\\detect\\train3\\weights\\best.pt'  #update with path of appropriate trained model
+random_forest_model_folder = train_home_folder + r'\\data\\random_forest_0.joblib' #choose which random forest model to use (0, 1, 2, 3, 4, 5)
 #raw_videos_folder = home_folder + '\\raw_videos'  #for videos in project folder
 
 # don't change unless altering path structure
-clips_folder = home_folder + '\\videos\\'
-test_folder = home_folder + '\\videos_test\\'
-labels_sequence_folder = home_folder + '\\labeled_wave_sequences'
-labeling_folder = home_folder + "\\clip_labeler\\clips\\"
-data_folder = home_folder + '\\data'
+clips_folder = r'.\\videos\\'
+test_folder = r'.\\videos_test\\'
+labels_sequence_folder = r'.\\labeled_wave_sequences'
+labeling_folder = r".\\clip_labeler\\clips\\"
+data_folder = r'.\\data'
 
 ####################################################################################################
 ## STEP 0: Check GPU configuration

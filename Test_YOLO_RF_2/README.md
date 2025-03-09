@@ -1,4 +1,4 @@
-# YOLO-RF Model for Breaking Wave Classification (Testing)
+# YOLO-RF Model for Breaking Wave Classification
 
 ## Overview
 
