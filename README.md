@@ -6,7 +6,7 @@ This set of programs is designed to train, test, and implement a machine learnin
 
 This project is organized into 3 project folders called **Train_YOLO_RF_2**, **Test_YOLO_RF_2**, and **Classify_YOLO_RF_2**. Each of these folders has a set of subfolders and scripts associated with them. Some programs have duplicate names between folders but are customized to run within each folder. Programs are all self-contained with options to pull data from other folders. Paths can be decided and customized at the top of each script. Each project folder has a `main.py` file with detailed instructions on how to execute programs. This file is meant to be run one line at a time, as many lines need to be edited and repeated and results need to be analyzed before proceeding to the next step. Do not attempt to run these files all the way through. Instead, run 1 line at a time from the `main.py` file or edit inputs directly in the appropriate function and run or call the function directly (calling the function directly makes it easier to run multiple instances in different terminal windows). If running directly from the function file, make sure all the variables at the top of the function are correct and match what is in `main.py` if you have changed them there.
 
-Be sure to delete all examples from the folders before running on your own data to avoid data contamination!!
+Examples files for each of the files (including intermediary outputs) are included under the **examples** folder, with the same file organization as the 3 main project folders.
 
 ## Installation
 
